@@ -15,5 +15,6 @@ router.post('/cadastrar',produtoController.cadastroProduto)
 router.get('/editar/:id',produtoController.editaProduto)
 router.post('/editar/:id',produtoController.atualizaProduto)
 
+router.get('/excluir/:id',produtoController.deletarProduto);
 
 export default router
